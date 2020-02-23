@@ -9,9 +9,7 @@ system to implement our design. We then used K maps to simplify our state table 
 flip-flops and the outputs), and obtained four switching expressions (two for the inputs, and two 
 for the outputs). This entire process is seen in the "Minimzation.jpg" image. 
 
-Following this, we used Verilog to implement the elevator design. The files we created are seen 
-in the parent ZIP file. We coded the inputs and outputs in ISE and gave regard to the sequential nature of 
-the elevator (elevator.v). We also called a D flip flop module in our main elevator.v module (dff.v) to
+Following this, we used Verilog to implement the elevator design. We coded the inputs and outputs in ISE and gave regard to the sequential nature of the elevator (elevator.v). We also called a D flip flop module in our main elevator.v module (dff.v) to
 obtain the next state used by the sequential circuit. The schematic of our circuit is shown by the top
 level image, "RTL Schematic Upper.JPG", and the lower level image "RTL Schematic Lower.JPG". 
 
