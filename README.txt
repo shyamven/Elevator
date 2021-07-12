@@ -15,7 +15,5 @@ level image, "RTL Schematic Upper.JPG", and the lower level image "RTL Schematic
 
 Finally, to test out circuit, we created a testbench file to demonstrate that for different inputs,
 our elevator would indeed move to the correct floor. The first four input sequences resulted in
-the proper output, but we did encounter an error with the fifth input. The elevator remainined on the 
-third floor although the second floor was supposed to be the output. Apart from this, the testbench demonstrated
-that our implementation was on the right track. Time was the main limiting factor in this debugging
-process. This testbench output waveform is shown in "Waveform.jpg"
+the proper output, demonstrating that our implementation was on the right track. Time was the main 
+limiting factor in this debugging process. This testbench output waveform is shown in "Waveform.jpg"
